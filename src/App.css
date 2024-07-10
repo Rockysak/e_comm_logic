@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.logoimg {
+
+    width: 100px !important;
+    margin-right: 50px;
+    /* height: 80px !important; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+    color: rgb(8, 143, 165) !important;
+    font-size: 20px !important;
+    margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+    color: rgb(8, 143, 165) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-nav .nav-link.show {
+    color:  rgb(8, 143, 165) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.inputbox {
+
+    padding: 7px 200px !important;
+    border-color:  rgb(8, 143, 165) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btns {
+
+    margin: 0px 20px;
+    padding: 5px 18px !important;
+    font-size: 18px !important;
+    background-color: aliceblue !important;
+    color: rgb(8, 143, 165) !important;
+    --bs-btn-border-color: rgb(8, 143, 165) !important;
+}
+
+.btns:hover {
+
+    background-color: rgb(8, 143, 165) !important;
+    color: black !important;
+}
+
+.imglogo {
+
+    width: 50%;
+    height: 250px;
+}
+
+/* .card {
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color-rgb(8, 143, 165));
+} */
+
+.btncart {
+    background-color: rgb(8, 143, 165) !important;
 }
